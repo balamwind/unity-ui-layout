@@ -1,0 +1,14 @@
+{
+  "name": "unity-ui-layout",
+  "description": "Claude skill that turns a game design doc into Unity UGUI screens",
+  "owner": {
+    "name": "balamwind"
+  },
+  "plugins": [
+    {
+      "name": "unity-ui-layout",
+      "source": "./plugins/unity-ui-layout",
+      "description": "Design doc to Unity UGUI screens: concept check, reference links, layout drawings, prefabs, screenshot check and scene placement"
+    }
+  ]
+}
