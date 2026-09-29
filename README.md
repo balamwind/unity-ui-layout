@@ -54,7 +54,7 @@ Ask in plain language, for example:
 
 ## Requirements
 
-- Unity project using UGUI. TextMeshPro is optional: the skill asks whether to enable it or use legacy `Text`.
+- Unity 6 or newer recommended (verified on Unity 6). Uses UGUI. TextMeshPro is optional: the skill asks whether to enable it or use legacy `Text`.
 - Python 3 for the layout drawings (standard library only). Without it, Unity renders a draft image instead.
 - Claude Code with access to the project folder, and either the Unity Editor open or the path to the Unity executable for batch mode.
 
@@ -79,7 +79,7 @@ Assets/UI_Generated/
 
 ## Status
 
-The workflow up to the layout drawing has been exercised in a real Claude conversation. The Unity editor scripts (prefab generation, screenshot capture, scene placement) have not been verified across Unity versions. If something breaks, please open an issue with your Unity version and the Console log or `Output~/report.txt`.
+Verified working on **Unity 6**. Other Unity versions have not been tested yet. If something breaks, please open an issue with your Unity version and the Console log or `Output~/report.txt`.
 
 ## License
 

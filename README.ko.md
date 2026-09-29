@@ -54,7 +54,7 @@ unzip unity-ui-layout.skill -d ~/.claude/skills/
 
 ## 요구 사항
 
-- UGUI를 쓰는 Unity 프로젝트. TextMeshPro는 선택이며, 없으면 활성화할지 레거시 `Text`로 만들지 물어봅니다.
+- Unity 6 이상 권장 (Unity 6에서 동작 확인). UGUI 사용. TextMeshPro는 선택이며, 없으면 활성화할지 레거시 `Text`로 만들지 물어봅니다.
 - 배치도를 그리기 위한 Python 3 (표준 라이브러리만 사용). 없으면 Unity에서 임시 색 초안 이미지를 대신 렌더링합니다.
 - 프로젝트 폴더에 접근할 수 있는 Claude Code, 그리고 Unity 에디터가 열려 있거나 batch 모드용 Unity 실행 파일 경로.
 
@@ -79,7 +79,7 @@ Assets/UI_Generated/
 
 ## 현재 상태
 
-배치도 단계까지는 실제 Claude 대화에서 동작을 확인했습니다. Unity 에디터 스크립트(프리팹 생성, 스크린샷 캡처, 씬 배치)는 여러 Unity 버전에서 검증되지 않았습니다. 문제가 생기면 Unity 버전과 Console 로그 또는 `Output~/report.txt`를 첨부해서 이슈로 남겨 주세요.
+**Unity 6**에서 동작을 확인했습니다. 다른 Unity 버전은 아직 테스트하지 않았습니다. 문제가 생기면 Unity 버전과 Console 로그 또는 `Output~/report.txt`를 첨부해서 이슈로 남겨 주세요.
 
 ## 라이선스
 
